@@ -1,0 +1,60 @@
+.add-audit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 0 0.2rem 0.1rem #e8e8e8;
+  margin: 0 15rem;
+  margin-bottom: 5rem;
+  margin-top: 4rem;
+  height: 40rem;
+  color: green;
+
+  &__action {
+    display: flex;
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 4rem;
+  }
+
+  &__text-fields {
+    display: flex;
+    padding: 0 5rem;
+    padding-top: 3rem;
+  }
+
+  &__header {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 2rem;
+    width: 100%;
+    height: 100%;
+    background-color: #e3d1ef;
+    color: #292929;
+    padding-bottom: 1rem;
+  }
+
+  &__parag {
+    text-align: center;
+    background-color: #e3d1ef;
+    padding-top: 0.5rem;
+    padding-bottom: 5rem;
+    font-size: 1.5rem;
+    color: #292929;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__confid-value {
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    color: black;
+
+    &__link {
+      padding-left: 0.4rem;
+      margin-top: 0.6rem;
+      text-decoration: none;
+      margin-bottom: 10px;
+    }
+  }
+}

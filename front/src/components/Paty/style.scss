@@ -1,0 +1,17 @@
+.paty {
+  &__person-image {
+    width: 7rem;
+    height: 7rem;
+    object-fit: cover;
+    margin: 1rem;
+    border-radius: 50%;
+  }
+}
+
+@media (min-width: 800px) {
+  .paty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
